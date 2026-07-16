@@ -1,50 +1,31 @@
-# Sprint 1 Plan
+# Sprint Planning Overview
 
-## Sprint Goal
-Deliver an MVP that enables the clinic to manage core appointments and pet records while allowing owners to view their pet information and receive basic reminders through a mobile-friendly portal.
+## Sprint Cadence
+- Sprint duration: 1 week
+- Team size: 5 people
+- MVP remains the highest priority
 
-## Sprint Scope
-The Sprint 1 MVP will focus on the following capabilities:
-- Appointment creation and conflict prevention for staff
-- Basic pet and owner profile management
-- Clinical record entry for vaccinations, deworming, weight, and medical history
-- Mobile-friendly owner portal access for viewing pet profiles and upcoming appointments
-- Reminder generation for upcoming vaccinations, preventive care, and appointments
-- One-tap emergency contact action from the owner portal
+## Recommended Sprint Sequence
+1. Sprint 1: Core staff workflows
+2. Sprint 2: Clinical care and reminder foundation
+3. Sprint 3: Owner portal and MVP completion
 
-## Stories Selected for Sprint 1
+## Capacity Guidance
+- Keep each sprint within approximately 12-15 story points to remain realistic for a small cross-functional team
+- Use the Solution Architect primarily in Sprint 1 and for targeted support later
+- Keep backend and frontend work parallel wherever the dependency chain allows
+
+## Sprint 1 Focus
 - Appointment scheduling and basic conflict prevention
 - Pet and owner record management
-- Clinical care tracking for vaccinations, deworming, weight, and medical history
-- Owner portal access for pet profile views and upcoming appointments
-- Communications and reminders, including emergency contact
 
-## Story Points
-Estimated using the Fibonacci scale:
-- Appointment scheduling: 8 points
-- Pet and owner records: 5 points
-- Clinical care tracking: 8 points
-- Owner portal access: 13 points
-- Communications and reminders: 8 points
+## Sprint 2 Focus
+- Vaccination, deworming, weight, and medical history records
+- Initial preventive care reminder logic
 
-## Total Estimated Story Points
-42 points
+## Sprint 3 Focus
+- Owner portal, reminder delivery, and emergency contact support
 
-## Definition of Done
-- Core staff workflows for appointments and pet records are implemented
-- Owners can access a mobile-friendly portal and view key pet information
-- Reminder and emergency-contact flows are available in the MVP scope
-- Documentation for user stories and acceptance criteria is updated
-- Basic validation and smoke testing have been completed
-
-## Dependencies
-- Owner portal authentication setup
-- Reminder channel configuration and provider availability
-- Emergency contact number configuration
-- Basic clinic data seed for pets, owners, and appointments
-
-## Risks
-- Portal authentication and access control may take longer than expected
-- Reminder integrations may depend on external service availability
-- Emergency contact behavior may require clarification around operating hours and fallback handling
-- Data visibility rules for owner access may require business approval
+## Definition of Done for the Release
+- The MVP includes core appointment management, pet and owner records, care tracking, owner portal access, reminders, and emergency contact
+- The release is ready for stakeholder review and early adoption planning

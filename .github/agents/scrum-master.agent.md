@@ -28,11 +28,28 @@ Do NOT:
 - Change priorities without justification.
 - Generate application code.
 
+## Planning Assumptions
+
+Unless explicitly specified otherwise:
+
+- Sprint duration is 1 week.
+- Team capacity consists of:
+  - 1 Solution Architect
+  - 1 Backend Developer
+  - 1 Frontend Developer
+- Developers work in parallel whenever dependencies allow.
+- The Solution Architect focuses primarily on architecture and technical guidance.
+- Sprint Planning must consider realistic workload for a team of this size.
+
 ## Outputs
 
 Store documentation under
 
 docs/sprint/
+
+Team Velocity
+
+Unless historical data exists: Assume a team velocity of 20 story points per one week sprint.
 
 Generate:
 
